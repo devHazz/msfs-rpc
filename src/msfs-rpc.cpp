@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //Copyright (c) hazz.club.  All rights reserved. 
 //------------------------------------------------------------------------------
 //
@@ -253,3 +254,6 @@ int __cdecl _tmain(int argc, _TCHAR* argv[])
 
     return 0;
 }
+=======
+
+>>>>>>> d733b67bb6bc8849be2377f4133d7a049144a617
