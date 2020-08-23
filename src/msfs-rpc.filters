@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Discord RPC">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Discord RPC\DiscordSDK">
+      <UniqueIdentifier>{b67e991f-66b5-47d0-a359-d49f4453480d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discord RPC\DiscordSDK\Src">
+      <UniqueIdentifier>{97eeac30-0e36-4256-ad7c-120527043798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discord RPC\DiscordSDK\Include">
+      <UniqueIdentifier>{bf633969-a795-419d-9feb-72aef3e811f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discord RPC\SimConnect">
+      <UniqueIdentifier>{1e372e72-3fb4-44e6-9e68-2825fa6d7c05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discord RPC\SimConnect\include">
+      <UniqueIdentifier>{8e2338b0-b441-45ee-942c-4b462cb2a05a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discord RPC\SimConnect\lib">
+      <UniqueIdentifier>{6e1cb165-8606-47ec-8954-57f5b47c5e49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discord RPC\SimConnect\VS">
+      <UniqueIdentifier>{8952a1ac-6365-4efc-88c1-363cfac03889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discord RPC\SimConnect\lib\managed">
+      <UniqueIdentifier>{a83999a9-025b-41c2-84d3-4a91274932e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Discord RPC\SimConnect\lib\static">
+      <UniqueIdentifier>{12bf66a4-fce8-490c-933f-3fb7e0c6eb2d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DiscordSDK\src\connection_win.cpp">
+      <Filter>Discord RPC\DiscordSDK\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\discord_register_win.cpp">
+      <Filter>Discord RPC\DiscordSDK\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\discord_rpc.cpp">
+      <Filter>Discord RPC\DiscordSDK\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\dllmain.cpp">
+      <Filter>Discord RPC\DiscordSDK\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\rpc_connection.cpp">
+      <Filter>Discord RPC\DiscordSDK\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="DiscordSDK\src\serialization.cpp">
+      <Filter>Discord RPC\DiscordSDK\Src</Filter>
+    </ClCompile>
+    <ClCompile Include="msfs-rpc.cpp">
+      <Filter>Discord RPC</Filter>
+    </ClCompile>
+    <ClCompile Include="RequestData.cpp">
+      <Filter>Discord RPC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DiscordSDK\include\discord_register.h">
+      <Filter>Discord RPC\DiscordSDK\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\include\discord_rpc.h">
+      <Filter>Discord RPC\DiscordSDK\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\backoff.h">
+      <Filter>Discord RPC\DiscordSDK\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\msg_queue.h">
+      <Filter>Discord RPC\DiscordSDK\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\rpc_connection.h">
+      <Filter>Discord RPC\DiscordSDK\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="DiscordSDK\src\serialization.h">
+      <Filter>Discord RPC\DiscordSDK\Src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\MSFS SDK\SimConnect SDK\include\SimConnect.h">
+      <Filter>Discord RPC\SimConnect\include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SimConnect SDK\lib\SimConnect.dll">
+      <Filter>Discord RPC\SimConnect\lib</Filter>
+    </None>
+    <None Include="SimConnect SDK\lib\managed\Microsoft.FlightSimulator.SimConnect.dll">
+      <Filter>Discord RPC\SimConnect\lib\managed</Filter>
+    </None>
+    <None Include="SimConnect SDK\VS\SimConnectClient.props">
+      <Filter>Discord RPC\SimConnect\VS</Filter>
+    </None>
+    <None Include="SimConnect SDK\VS\SimConnectClient-static.props">
+      <Filter>Discord RPC\SimConnect\VS</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="SimConnect SDK\lib\SimConnect.lib">
+      <Filter>Discord RPC\SimConnect\lib</Filter>
+    </Library>
+    <Library Include="SimConnect SDK\lib\static\SimConnect.lib">
+      <Filter>Discord RPC\SimConnect\lib\static</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
